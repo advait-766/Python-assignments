@@ -1,0 +1,8 @@
+calculate_perimeter = lambda length, width: 2 * (length + width)
+calculate_area = lambda lenght, width: (lenght * width)
+length_val = int(input("Lenght : "))
+width_val = int(input("Width : "))
+perimeter = calculate_perimeter(length_val, width_val)
+area = calculate_area(length_val,width_val)
+print(f"The perimeter of the rectangle is: {perimeter}")
+print(f"The area of the rectangle is: {area}")
