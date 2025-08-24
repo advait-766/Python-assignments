@@ -1,0 +1,6 @@
+compound_interest = lambda P, r, n, t: P * ((1 + r/n) ** (n*t))
+P = float(input("Enter Principal amount: "))
+r = float(input("Enter Rate of interest (in decimal, e.g., 0.05 for 5%): "))
+n = int(input("Enter number of times interest compounds per year: "))
+t = float(input("Enter time in years: "))
+print(f"Compound Interest = Rs {compound_interest(P, r, n, t):.2f}")
